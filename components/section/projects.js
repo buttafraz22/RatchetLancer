@@ -5,7 +5,7 @@ import { clsx } from "clsx";
 import Waypoints from "../dust/waypoints";
 
 export default function Projects() {
-    let gh = "https://github.com/buttafraz22";
+    // let gh = "https://github.com/buttafraz22";
     let [projects] = useState([
       {
         name: "Demo finance app",
@@ -106,7 +106,7 @@ export default function Projects() {
                             className={`group hover:scale-110 ${
                               isLeft ? "hover:rotate-6" : "hover:-rotate-6"
                             } transition delay-75`}
-                            href={gh + link}
+                            href={link}
                             target="_blank"
                             rel="noopener noreferrer"
                           >
